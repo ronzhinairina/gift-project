@@ -1,0 +1,39 @@
+.different {
+    width: 812px;
+    margin: 0 auto;
+
+    &__title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        font-family: "Mak", sans-serif;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    &__conainer {
+        display: flex;
+        justify-content: space-between;
+        width: 714px;
+        align-items: flex-end;
+        margin: 0 auto;
+    }
+
+    &__item {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    &__item:last-child {
+        margin-bottom: 0;
+    }
+
+    &__text {
+        font-size: 16px;
+        text-align: center;
+        width: 680px;
+        margin: 0 auto;
+    }
+}

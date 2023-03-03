@@ -1,0 +1,305 @@
+.lead {
+  margin-bottom: 70px;
+}
+.lead__title {
+  font-weight: 300;
+  font-size: 32px;
+  width: 427px;
+}
+.lead__subtitle {
+  font-size: 12px;
+  color: #4D4D4D;
+  width: 328px;
+}
+.lead__image {
+  width: 405px;
+}
+.lead__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media all and (max-width: 391px) {
+  .lead {
+    margin-bottom: 40px;
+  }
+  .lead__title {
+    font-size: 24px;
+    width: 300px;
+  }
+  .lead__image {
+    width: 300px;
+  }
+  .lead__container {
+    flex-wrap: wrap;
+  }
+}
+.moment {
+  width: 941px;
+  margin: 0 auto 70px;
+}
+.moment__title {
+  padding-top: 50px;
+  font-size: 24px;
+  text-align: center;
+}
+.moment__subtitle {
+  font-family: "Mak", sans-serif;
+  text-align: center;
+  font-size: 16px;
+  width: 793px;
+  margin: 10px auto 25px;
+}
+.moment__container {
+  border-top: 1px solid #BEBEBE;
+  border-bottom: 1px solid #BEBEBE;
+  padding: 10px 0;
+  width: 410px;
+  margin: 0 auto;
+}
+.moment__phrase {
+  color: #4D4D4D;
+  font-weight: 300;
+  font-size: 14px;
+}
+.moment__text {
+  text-align: center;
+  margin: 25px auto;
+  width: 809px;
+}
+.moment__date {
+  color: #BFBFBF;
+  font-size: 14px;
+  width: 114px;
+  border: 1px solid #D9D9D9;
+  border-radius: 15px;
+  padding: 1px 12px;
+  margin: 0 auto 10px;
+  text-align: center;
+}
+.moment__phrase-right {
+  text-align: right;
+}
+.moment__phrase-184 {
+  width: 184px;
+}
+.moment__svg-1 {
+  position: absolute;
+  left: 27%;
+  margin-top: 55px;
+}
+.moment__svg-2 {
+  position: absolute;
+  right: 25%;
+  margin-top: -200px;
+}
+.moment__svg-3 {
+  position: absolute;
+  left: 27%;
+  margin-top: -115px;
+}
+.moment__svg-4 {
+  position: absolute;
+  right: 30%;
+  margin-top: -100px;
+}
+.moment__star {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media all and (max-width: 391px) {
+  .moment {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  .moment__subtitle {
+    width: 300px;
+  }
+  .moment__svg-1 {
+    display: none;
+  }
+  .moment__svg-2 {
+    display: none;
+  }
+  .moment__svg-3 {
+    display: none;
+  }
+  .moment__svg-4 {
+    display: none;
+  }
+  .moment__container {
+    padding: 8px 0;
+    width: 300px;
+  }
+  .moment__text {
+    margin: 20px auto;
+    width: 300px;
+  }
+  .moment__title {
+    padding-top: 16px;
+    font-size: 20px;
+  }
+  .moment__subtitle {
+    margin: 8px auto 20px;
+  }
+  .moment__phrase {
+    font-size: 12px;
+  }
+  .moment__date {
+    width: 104px;
+    font-size: 12px;
+    margin: 0 auto 8px;
+  }
+}
+.reasons {
+  margin-bottom: 70px;
+}
+.reasons__title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.reasons__image {
+  width: 150px;
+}
+.reasons__container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.reasons__container-box {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.reasons__text {
+  text-align: center;
+}
+.reasons__container-phrase {
+  width: 597px;
+  margin: 0 auto 25px;
+}
+.reasons__phrase {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  color: #4D4D4D;
+}
+.reasons__author {
+  text-align: right;
+  color: #4D4D4D;
+  font-size: 14px;
+}
+
+@media all and (max-width: 391px) {
+  .reasons {
+    margin-bottom: 40px;
+  }
+  .reasons__container {
+    flex-wrap: wrap;
+    margin-top: 16px;
+    justify-content: center;
+  }
+  .reasons__container-phrase {
+    width: 300px;
+    margin-bottom: 16px;
+  }
+  .reasons__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .reasons__phrase {
+    font-size: 12px;
+  }
+  .reasons__author {
+    font-size: 12px;
+  }
+  .reasons__container-box {
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+}
+.different {
+  width: 812px;
+  margin: 0 auto;
+}
+.different__title {
+  font-size: 24px;
+  text-align: center;
+}
+.different__subtitle {
+  font-family: "Mak", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.different__conainer {
+  display: flex;
+  justify-content: space-between;
+  width: 714px;
+  align-items: flex-end;
+  margin: 0 auto;
+}
+.different__item {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.different__item:last-child {
+  margin-bottom: 0;
+}
+.different__text {
+  font-size: 16px;
+  text-align: center;
+  width: 680px;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Merriweather Sans", sans-serif;
+  line-height: 150%;
+}
+
+h1, h2, p {
+  color: #1A1A1A;
+  line-height: 150%;
+}
+
+h1, h2 {
+  font-family: "Mak", sans-serif;
+}
+
+p, li {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+}
+
+.body {
+  max-width: 982px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 391px) {
+  .body {
+    max-width: 300px;
+  }
+}
+@font-face {
+  font-family: "Mak";
+  src: url("C:Usersnedoc\appDataLocalMicrosoftWindows\fontsMak.otf");
+}/*# sourceMappingURL=style.css.map */

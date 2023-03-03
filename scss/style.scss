@@ -1,0 +1,53 @@
+@import "_header";
+@import "_lead";
+@import "_moment";
+@import "_reasons";
+@import "_different";
+@import "_end";
+@import "_footer";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 150%;
+}
+
+h1, h2, p {
+    color: #1A1A1A;
+    line-height: 150%;
+}
+
+h1, h2 {
+    font-family: "Mak", sans-serif;
+}
+
+p, li {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+}
+
+.body {
+    max-width: 982px;
+    // background-color: black;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 391px) {
+    .body {
+        max-width: 300px;
+    }
+}
+
+@font-face {
+    font-family: "Mak";
+    src: url('C:\Users\nedoc\AppData\Local\Microsoft\Windows\Fonts\Mak.otf');
+}
