@@ -93,7 +93,8 @@ p, li {
 
 @font-face {
     font-family: "Mak";
-    src: url('/fonts/Mak.otf');
+    src: url('/fonts/Mak.otf'), 
+    url('/fonts/Mak.woff2');
     font-weight: 300;
     font-style: normal;
 }
