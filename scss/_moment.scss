@@ -93,6 +93,7 @@
 
         &__subtitle {
             width: 300px;
+            margin: 8px auto 20px;
         }
 
         &__svg-1 {
@@ -122,14 +123,10 @@
         }
 
         &__title {
-            padding-top: 16px;
+            padding-top: 20px;
             font-size: 20px;
         }
-
-        &__subtitle {
-            margin: 8px auto 20px;
-        }
-
+        
         &__phrase {
             font-size: 12px;
         }

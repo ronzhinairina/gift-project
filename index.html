@@ -5,24 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>Love?</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="preloader"></div>
+    <div id="page-preloader" class="preloader">
+        <div class="loader"></div>
+    </div>
     <div class="body">
         <header class="header">
             <nav class="header__nav">
                 <ul class="nav__list">
-                    <a href="">
+                    <a class="nav__link" href="#moment">
                         <li class="nav__item">Первые моменты</li>
                     </a>
-                    <a href="">
+                    <a class="nav__link" href="#reasons">
                         <li class="nav__item">100 причин любить тебя</li>
                     </a>
-                    <a href="">
+                    <a class="nav__link" href="#different">
                         <li class="nav__item">Мы - разные</li>
                     </a>
                 </ul>
@@ -39,10 +42,11 @@
                         </h1>
                         <p class="lead__subtitle">P.S. осторожно, дальше может быть мило и несильно профессионально</p>
                     </div>
-                    <img class="lead__image" src="image/image 1.jpg" alt="">
+                    <div class="lead__image"></div>
+                    <p class="lead__subtitle lead__subtitle-1">P.S. осторожно, дальше может быть мило и несильно профессионально</p>
                 </div>
             </section>
-            <section class="moment">
+            <section id="moment" class="moment">
                 <h2 class="moment__title">А с чего все началось? Как так вышло?</h2>
                 <p class="moment__subtitle">
                     Мы уже, наверное, 1000 и 1 раз вместе с тобой вспоминали, как все начиналось, но сегодня я предлагаю
@@ -138,7 +142,7 @@
                     совершенно разнообразные оттенки.
                 </p>
             </section>
-            <section class="reasons">
+            <section id="reasons" class="reasons">
                 <h2 class="reasons__title">Причины любить тебя</h2>
                 <div class="reasons__container-phrase">
                     <p class="reasons__phrase">
@@ -182,7 +186,7 @@
                     </div>
                 </div>
             </section>
-            <section class="different">
+            <section id="different" class="different">
                 <h2 class="different__title">Мы - разные</h2>
                 <p class="different__subtitle">
                     Необязательно быть гением, чтобы понимать это. Ведь не бывает отношений без проблем и ссор, без них
@@ -190,8 +194,8 @@
                     было бы развития. К чему это я? Хоть мы и действительно непохожи, но это не всегда равно конфликты.
                     Посмотри сам!!!
                 </p>
-                <div class="different__conainer">
-                    <div class="different__conainer-left">
+                <div class="different__container">
+                    <div class="different__container-left">
                         <ul class="different__list">
                             <li class="different__item">Ты - реально хороший программист</li>
                             <li class="different__item">Ты - интровертный экстраверт</li>
@@ -200,7 +204,7 @@
                             <li class="different__item">Ты человек-паук</li>
                         </ul>
                     </div>
-                    <img src="image/Element 5.svg" alt="" width="165" height="193">
+                    <img class="different__svg" src="image/Element 5.svg" alt="" width="165" height="193">
                     <div>
                         <ul>
                             <li class="different__item">Я - что-то вроде дизайнера</li>
@@ -225,30 +229,37 @@
                 </div>
             </section>
             <section class="end">
-                <h2>Заключение</h2>
-                <p>
+                <h2 class="end__title">Заключение</h2>
+                <p class="end__text">
                     Так, солнце. Этот сайтик подходит к концу. Я бы хотела, чтобы ты еще сам повспоминал какие-то
                     моменты,
                     поэтому оставлю тебя с нашими фотографиями наедине))
                 </p>
-                <a href=""><img src="image/Prev.svg" alt="" width="102" height="66"></a>
-                <!-- <img src="image/image 3.png" alt="" width="405" height="540">
-                <img src="image/image 4.png" alt="" width="405" height="540">
-                <img src="image/image 5.png" alt="" width="405" height="540">
-                <img src="image/image 6.png" alt="" width="405" height="540">
-                <img src="image/image 7.png" alt="" width="405" height="540">
-                <img src="image/image 8.png" alt="" width="405" height="540">
-                <img src="image/image 9.png" alt="" width="405" height="540">
-                <img src="image/image 10.png" alt="" width="405" height="540">
-                <img src="image/image 11.png" alt="" width="405" height="540">
-                <img src="image/image 12.png" alt="" width="405" height="540"> -->
-                <a href=""><img src="image/Next.svg" alt="" width="102" height="66"></a>
+                <div class="end__container">
+                    <a class="end__carousel-prev" onclick="plusSlides(-1)"><img class="end__prev" src="image/Prev.svg" alt=""></a>
+                    <img class="end__carousel" src="image/image 3.jpg" alt="">
+                    <img class="end__carousel" src="image/image 4.jpg" alt="">
+                    <img class="end__carousel" src="image/image 5.jpg" alt="">
+                    <img class="end__carousel" src="image/image 6.jpg" alt="">
+                    <img class="end__carousel" src="image/image 7.jpg" alt="">
+                    <img class="end__carousel" src="image/image 8.jpg" alt="">
+                    <img class="end__carousel" src="image/image 9.jpg" alt="">
+                    <img class="end__carousel" src="image/image 10.jpg" alt="">
+                    <img class="end__carousel" src="image/image 11.jpg" alt="">
+                    <img class="end__carousel" src="image/image 12.jpg" alt="">
+                    <a class="end__carousel-next" onclick="plusSlides(1)"><img class="end__next" src="image/Next.svg" alt=""></a>
+                </div>
             </section>
         </main>
         <footer class="footer">
-
+            <p class="footer__text">
+                Сделано с большой любовью
+                <br>от Ирины
+            </p>
         </footer>
     </div>
 </body>
+<script src="js/script.js" async></script>
+<script src="js/preloader.js" async></script>
 
 </html>

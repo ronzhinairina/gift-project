@@ -11,6 +11,10 @@
     margin: 0;
 }
 
+body {
+    background: url('/image/33 1.jpg');
+}
+
 ul {
     list-style: none;
 }
@@ -19,11 +23,12 @@ a {
     text-decoration: none;
     font-family: 'Merriweather Sans', sans-serif;
     line-height: 150%;
+    color: #1A1A1A;
 }
 
 h1, h2, p {
-    color: #1A1A1A;
     line-height: 150%;
+    color: #1A1A1A;
 }
 
 h1, h2 {
@@ -33,15 +38,54 @@ h1, h2 {
 p, li {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 16px;
+    line-height: 150%;
 }
 
 .body {
     max-width: 982px;
-    // background-color: black;
     margin: 0 auto;
 }
 
-@media screen and (max-width: 391px) {
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/image/16 1.jpg');
+    z-index: 100;
+    background-size: cover;
+    transition: 1s all;
+    opacity: 1;
+    visibility: visible;
+
+    &.done {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.loader {
+    background: url('/image/loader.svg');
+    width: 184px;
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: 2s spin infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg)
+    }
+}
+
+@media all and (max-width: 391px) {
     .body {
         max-width: 300px;
     }
@@ -49,5 +93,7 @@ p, li {
 
 @font-face {
     font-family: "Mak";
-    src: url('C:\Users\nedoc\AppData\Local\Microsoft\Windows\Fonts\Mak.otf');
+    src: url('/fonts/Mak.otf');
+    font-weight: 300;
+    font-style: normal;
 }

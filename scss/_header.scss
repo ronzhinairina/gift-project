@@ -1,0 +1,33 @@
+.nav {
+    &__list {
+        display: flex;
+        width: 578px;
+        justify-content: space-between;
+        margin: 43px auto 40px;
+    }
+
+    &__link {
+        transition: all 0.5s ease;
+    }
+
+    &__link:hover {
+        color: #DCDCDC;
+        transition: all 0.5s ease;
+    }
+
+    &__link:active {
+        color: #8C8C8C;
+    }
+}
+
+@media all and (max-width: 391px) {
+    .nav {
+        &__list {
+            width: 300px;
+            text-align: center;
+            gap: 16px;
+            margin: 24px auto 20px;
+            flex-direction: column;
+        }
+    }
+}

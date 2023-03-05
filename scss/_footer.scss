@@ -1,0 +1,14 @@
+.footer {
+    padding: 50px 0;
+
+    &__text {
+        font-family: "Mak", sans-serif;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 391px) {
+    .footer {
+        padding: 20px;
+    }
+}

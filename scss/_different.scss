@@ -1,10 +1,12 @@
 .different {
     width: 812px;
-    margin: 0 auto;
+    margin: 0 auto 70px;
 
     &__title {
         font-size: 24px;
         text-align: center;
+        padding-top: 50px;
+        margin-bottom: 10px;
     }
 
     &__subtitle {
@@ -13,12 +15,12 @@
         text-align: center;
     }
 
-    &__conainer {
+    &__container {
         display: flex;
         justify-content: space-between;
         width: 714px;
         align-items: flex-end;
-        margin: 0 auto;
+        margin: 30px auto;
     }
 
     &__item {
@@ -34,6 +36,71 @@
         font-size: 16px;
         text-align: center;
         width: 680px;
+        margin: 0 auto 30px;
+    }
+
+    &__phrase {
+        font-style: italic;
+        font-weight: 300;
+        font-size: 14px;
+        color: #4D4D4D;
+    }
+
+    &__author {
+        font-weight: 300;
+        font-size: 14px;
+        color: #4D4D4D;
+        text-align: right;
+    }
+
+    &__container-phrase {
+        width: 532px;
         margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 391px) {
+    .different {
+        width: 300px;
+
+        &__title {
+            font-size: 20px;
+            padding-top: 20px;
+            margin-bottom: 8px;
+        }
+        
+        &__container {
+            display: block;
+            width: 300px;
+            margin: 20px auto;
+        }
+
+        &__svg {
+            display: block;
+            width: 60px;
+            height: 70px;
+            margin: 16px auto;
+        }
+
+        &__item {
+            margin-bottom: 20px;
+        }
+
+        &__text {
+            width: 300px;
+            margin: 0 auto 20px;
+        }
+
+        &__container-phrase {
+            width: 300px;
+        }
+
+        &__phrase {
+            font-size: 12px;
+        }
+    
+        &__author {
+            font-size: 12px;
+        }
     }
 }

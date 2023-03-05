@@ -1,10 +1,12 @@
 .lead {
     margin-bottom: 70px;
+    // background: url('/image/48 1.jpg');
 
     &__title {
         font-weight: 300;
         font-size: 32px;
         width: 427px;
+        margin-bottom: 30px;
     }
 
     &__subtitle {
@@ -13,8 +15,22 @@
         width: 328px;
     }
 
+    &__subtitle-1 {
+        display: none;
+    }
+
     &__image {
+        background: url('/image/image 1.jpg');
+        background-size: cover;
         width: 405px;
+        height: 540px;
+        transition: all 1s ease;
+    }
+
+    &__image:hover {
+        background: url('/image/image 2.jpg');
+        transition: all 1s ease;
+        background-size: cover;
     }
 
     &__container {
@@ -31,14 +47,26 @@
         &__title {
             font-size: 24px;
             width: 300px;
+            text-align: center;
+            margin-bottom: 20px;
         }
 
         &__image {
             width: 300px;
+            height: 400px;
         }
 
         &__container {
-            flex-wrap: wrap;
+            display: block;
+        }
+
+        &__subtitle {
+            display: none;
+        }
+
+        &__subtitle-1 {
+            display: block;
+            width: 300px;
         }
     }
 }
