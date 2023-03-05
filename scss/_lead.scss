@@ -20,7 +20,7 @@
     }
 
     &__image {
-        background: url('/image/image 1.jpg');
+        background: url('../image/image 1.jpg');
         background-size: cover;
         width: 405px;
         height: 540px;
@@ -28,7 +28,7 @@
     }
 
     &__image:hover {
-        background: url('/image/image 2.jpg');
+        background: url('../image/image 2.jpg');
         transition: all 1s ease;
         background-size: cover;
     }
