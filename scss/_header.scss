@@ -31,3 +31,15 @@
         }
     }
 }
+
+@media all and (max-width: 415px) {
+    .nav {
+        &__list {
+            width: 350px;
+            text-align: center;
+            gap: 16px;
+            margin: 24px auto 20px;
+            flex-direction: column;
+        }
+    }
+}

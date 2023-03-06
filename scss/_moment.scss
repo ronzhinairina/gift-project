@@ -138,3 +138,56 @@
         }
     }
 }
+
+@media all and (max-width: 415px) {
+    .moment {
+        width: 350px;
+        margin-bottom: 40px;
+
+        &__subtitle {
+            width: 350px;
+            margin: 8px auto 20px;
+        }
+
+        &__svg-1 {
+            display: none;
+        }
+
+        &__svg-2 {
+            display: none;
+        }
+
+        &__svg-3 {
+            display: none;
+        }
+
+        &__svg-4 {
+            display: none;
+        }
+
+        &__container {
+            padding: 8px 0;
+            width: 350px;
+        }
+
+        &__text {
+            margin: 20px auto;
+            width: 350px;
+        }
+
+        &__title {
+            padding-top: 20px;
+            font-size: 20px;
+        }
+        
+        &__phrase {
+            font-size: 12px;
+        }
+
+        &__date {
+            width: 104px;
+            font-size: 12px;
+            margin: 0 auto 8px;
+        }
+    }
+}

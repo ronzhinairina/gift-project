@@ -71,3 +71,33 @@
     }
 }
 
+@media all and (max-width: 415px) {
+    .lead {
+        margin-bottom: 40px;
+
+        &__title {
+            font-size: 24px;
+            width: 350px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        &__image {
+            width: 350px;
+            height: 400px;
+        }
+
+        &__container {
+            display: block;
+        }
+
+        &__subtitle {
+            display: none;
+        }
+
+        &__subtitle-1 {
+            display: block;
+            width: 350px;
+        }
+    }
+}

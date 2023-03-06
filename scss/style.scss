@@ -91,6 +91,12 @@ p, li {
     }
 }
 
+@media all and (max-width: 415px) {
+    .body {
+        max-width: 350px;
+    }
+}
+
 @font-face {
     font-family: "Mak";
     src: //url('../fonts/Mak.otf'), 

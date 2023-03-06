@@ -51,7 +51,7 @@
     }
 }
 
-@media all and (max-width: 391px) {
+@media all and (max-width: 390px) {
     .reasons {
         margin-bottom: 40px;
 
@@ -63,6 +63,42 @@
 
         &__container-phrase {
             width: 300px;
+            margin-bottom: 20px;
+        }
+
+        &__title {
+            font-size: 20px;
+            padding-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        &__phrase {
+            font-size: 12px;
+        }
+
+        &__author {
+            font-size: 12px;
+        }
+
+        &__container-box {
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media all and (max-width: 415px) {
+    .reasons {
+        margin-bottom: 40px;
+
+        &__container {
+            flex-wrap: wrap;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        &__container-phrase {
+            width: 350px;
             margin-bottom: 20px;
         }
 

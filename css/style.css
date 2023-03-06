@@ -24,6 +24,15 @@
     flex-direction: column;
   }
 }
+@media all and (max-width: 415px) {
+  .nav__list {
+    width: 350px;
+    text-align: center;
+    gap: 16px;
+    margin: 24px auto 20px;
+    flex-direction: column;
+  }
+}
 .lead {
   margin-bottom: 70px;
 }
@@ -82,6 +91,31 @@
   .lead__subtitle-1 {
     display: block;
     width: 300px;
+  }
+}
+@media all and (max-width: 415px) {
+  .lead {
+    margin-bottom: 40px;
+  }
+  .lead__title {
+    font-size: 24px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .lead__image {
+    width: 350px;
+    height: 400px;
+  }
+  .lead__container {
+    display: block;
+  }
+  .lead__subtitle {
+    display: none;
+  }
+  .lead__subtitle-1 {
+    display: block;
+    width: 350px;
   }
 }
 .moment {
@@ -201,6 +235,48 @@
     margin: 0 auto 8px;
   }
 }
+@media all and (max-width: 415px) {
+  .moment {
+    width: 350px;
+    margin-bottom: 40px;
+  }
+  .moment__subtitle {
+    width: 350px;
+    margin: 8px auto 20px;
+  }
+  .moment__svg-1 {
+    display: none;
+  }
+  .moment__svg-2 {
+    display: none;
+  }
+  .moment__svg-3 {
+    display: none;
+  }
+  .moment__svg-4 {
+    display: none;
+  }
+  .moment__container {
+    padding: 8px 0;
+    width: 350px;
+  }
+  .moment__text {
+    margin: 20px auto;
+    width: 350px;
+  }
+  .moment__title {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .moment__phrase {
+    font-size: 12px;
+  }
+  .moment__date {
+    width: 104px;
+    font-size: 12px;
+    margin: 0 auto 8px;
+  }
+}
 .reasons {
   margin-bottom: 70px;
 }
@@ -246,7 +322,7 @@
   font-size: 14px;
 }
 
-@media all and (max-width: 391px) {
+@media all and (max-width: 390px) {
   .reasons {
     margin-bottom: 40px;
   }
@@ -257,6 +333,35 @@
   }
   .reasons__container-phrase {
     width: 300px;
+    margin-bottom: 20px;
+  }
+  .reasons__title {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  .reasons__phrase {
+    font-size: 12px;
+  }
+  .reasons__author {
+    font-size: 12px;
+  }
+  .reasons__container-box {
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+}
+@media all and (max-width: 415px) {
+  .reasons {
+    margin-bottom: 40px;
+  }
+  .reasons__container {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .reasons__container-phrase {
+    width: 350px;
     margin-bottom: 20px;
   }
   .reasons__title {
@@ -364,6 +469,43 @@
     font-size: 12px;
   }
 }
+@media all and (max-width: 415px) {
+  .different {
+    width: 350px;
+  }
+  .different__title {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 8px;
+  }
+  .different__container {
+    display: block;
+    width: 350px;
+    margin: 20px auto;
+  }
+  .different__svg {
+    display: block;
+    width: 80px;
+    height: 90px;
+    margin: 16px auto;
+  }
+  .different__item {
+    margin-bottom: 20px;
+  }
+  .different__text {
+    width: 350px;
+    margin: 0 auto 20px;
+  }
+  .different__container-phrase {
+    width: 350px;
+  }
+  .different__phrase {
+    font-size: 12px;
+  }
+  .different__author {
+    font-size: 12px;
+  }
+}
 .end {
   margin-bottom: 70px;
 }
@@ -433,6 +575,41 @@
     padding-top: 20px;
   }
 }
+@media all and (max-width: 415px) {
+  .end {
+    margin-bottom: 40px;
+  }
+  .end__carousel-active {
+    width: 350px;
+  }
+  .end__carousel-prev {
+    position: absolute;
+    margin-top: 207px;
+  }
+  .end__carousel-next {
+    position: absolute;
+    margin-top: -260px;
+    right: 33px;
+  }
+  .end__container {
+    display: block;
+    width: 350px;
+  }
+  .end__prev {
+    width: 60px;
+  }
+  .end__next {
+    width: 60px;
+  }
+  .end__text {
+    width: 350px;
+    margin: 20px auto;
+  }
+  .end__title {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+}
 .footer {
   padding: 50px 0;
 }
@@ -442,6 +619,11 @@
 }
 
 @media all and (max-width: 391px) {
+  .footer {
+    padding: 20px;
+  }
+}
+@media all and (max-width: 415px) {
   .footer {
     padding: 20px;
   }
@@ -526,6 +708,11 @@ p, li {
 @media all and (max-width: 391px) {
   .body {
     max-width: 300px;
+  }
+}
+@media all and (max-width: 415px) {
+  .body {
+    max-width: 350px;
   }
 }
 @font-face {
