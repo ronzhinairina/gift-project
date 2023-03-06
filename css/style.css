@@ -530,7 +530,7 @@ p, li {
 }
 @font-face {
   font-family: "Mak";
-  src: url("../fonts/Mak.ttf"), url("../fonts/Mak.woff");
+  src: url("../fonts/Mak.woff"), url("../fonts/Mak.woff2");
   font-weight: 300;
   font-style: normal;
 }/*# sourceMappingURL=style.css.map */
