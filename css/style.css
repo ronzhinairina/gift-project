@@ -128,7 +128,7 @@
   text-align: center;
 }
 .moment__subtitle {
-  font-family: "Mak", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 16px;
   width: 793px;
@@ -171,21 +171,41 @@
   position: absolute;
   left: 27%;
   margin-top: 55px;
+  transition: all 1s ease;
+}
+.moment__svg-1:hover {
+  margin-top: 0;
+  transition: all 1s ease;
 }
 .moment__svg-2 {
   position: absolute;
   right: 25%;
   margin-top: -200px;
+  transition: all 1s ease;
+}
+.moment__svg-2:hover {
+  margin-top: -270px;
+  transition: all 1s ease;
 }
 .moment__svg-3 {
   position: absolute;
   left: 27%;
-  margin-top: -115px;
+  margin-top: -140px;
+  transition: all 1s ease;
+}
+.moment__svg-3:hover {
+  margin-top: -200px;
+  transition: all 1s ease;
 }
 .moment__svg-4 {
   position: absolute;
   right: 30%;
   margin-top: -100px;
+  transition: all 1s ease;
+}
+.moment__svg-4:hover {
+  margin-top: -150px;
+  transition: all 1s ease;
 }
 .moment__star {
   font-weight: 300;
@@ -391,7 +411,7 @@
   margin-bottom: 10px;
 }
 .different__subtitle {
-  font-family: "Mak", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   text-align: center;
 }
@@ -614,7 +634,7 @@
   padding: 50px 0;
 }
 .footer__text {
-  font-family: "Mak", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
@@ -654,7 +674,8 @@ h1, h2, p {
 }
 
 h1, h2 {
-  font-family: "Mak", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 p, li {
@@ -714,10 +735,4 @@ p, li {
   .body {
     max-width: 350px;
   }
-}
-@font-face {
-  font-family: "Mak";
-  src: url("../fonts/MAK.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
 }/*# sourceMappingURL=style.css.map */

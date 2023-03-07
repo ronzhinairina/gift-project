@@ -9,7 +9,7 @@
     }
 
     &__subtitle {
-        font-family: "Mak", sans-serif;
+        font-family: 'Roboto', sans-serif;
         text-align: center;
         font-size: 16px;
         width: 793px;
@@ -55,28 +55,53 @@
         width: 184px;
     }
 
+    
     &__svg-1 {
         position: absolute;
         left: 27%;
         margin-top: 55px;
+        transition: all 1s ease;
+    }
+    
+    &__svg-1:hover {
+        margin-top: 0;
+        transition: all 1s ease;
     }
 
     &__svg-2 {
         position: absolute;
         right: 25%;
         margin-top: -200px;
+        transition: all 1s ease;
+    }
+
+    &__svg-2:hover {
+        margin-top: -270px;
+        transition: all 1s ease;
     }
 
     &__svg-3 {
         position: absolute;
         left: 27%;
-        margin-top: -115px;
+        margin-top: -140px;
+        transition: all 1s ease;
+    }
+
+    &__svg-3:hover {
+        margin-top: -200px;
+        transition: all 1s ease;
     }
 
     &__svg-4 {
         position: absolute;
         right: 30%;
         margin-top: -100px;
+        transition: all 1s ease;
+    }
+
+    &__svg-4:hover {
+        margin-top: -150px;
+        transition: all 1s ease;
     }
 
     &__star {
